@@ -1,0 +1,25 @@
+.box {
+  background-color: lightskyblue;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container {
+  display: grid;
+  background-color: lightcoral;
+  grid-auto-rows: auto;
+  width: 800px;
+  height: 800px;
+}
+
+.box-hover {
+  background-color: rgb(240, 128, 240);
+}
